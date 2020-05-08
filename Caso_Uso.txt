@@ -1,0 +1,5 @@
+CASO DE USO 1:
+Usuario (Director o preceptor): Selecciona un curso (del comboBox) y fecha de toma de asistencia (DateTimePicker)
+Respuesta del sistema: Muestra una tabla de dos columnas, en cada registro hay un nombre y un button.  
+
+ 
