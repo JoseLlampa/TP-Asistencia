@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Solucion.LibreriaNegocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,9 @@ namespace Solucion.Forms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(new LibreriaNegocio.Curso()));
+            Application.Run(new Form1(new Curso()));
+
+           
         }
     }
 }

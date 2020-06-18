@@ -14,21 +14,18 @@ namespace Solucion.LibreriaNegocio
         public string Nombre { get => _nombre; set => _nombre = value; }
         private double Falta { get => _falta; set => _falta = value; }
         
-         
         public Alumno(string nom, double falt)
         {
             this._nombre = nom;
             this._falta = falt;
         }
 
-        /*public int GetCantidadPresente(int p)
-        {
-            //this.Asistencia = 
-        }*/
-
         public void SumarFalta()
         {
             this.Falta = this.Falta + 1;
         }
+
+        
+
     }
 }

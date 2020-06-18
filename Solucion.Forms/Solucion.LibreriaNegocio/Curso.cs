@@ -29,6 +29,6 @@ namespace Solucion.LibreriaNegocio
             this._alumnos.Remove(alumno);
         }
 
-
+        
     }
 }

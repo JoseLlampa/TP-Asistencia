@@ -40,13 +40,14 @@
             this.lblAlumno.AutoSize = true;
             this.lblAlumno.Location = new System.Drawing.Point(29, 35);
             this.lblAlumno.Name = "lblAlumno";
-            this.lblAlumno.Size = new System.Drawing.Size(46, 17);
+            this.lblAlumno.Size = new System.Drawing.Size(162, 17);
             this.lblAlumno.TabIndex = 0;
-            this.lblAlumno.Text = "label1";
+            this.lblAlumno.Text = "\"NOMBRE Y APELLIDO\"";
+            this.lblAlumno.Click += new System.EventHandler(this.lblAlumno_Click);
             // 
             // btnPresente
             // 
-            this.btnPresente.Location = new System.Drawing.Point(32, 161);
+            this.btnPresente.Location = new System.Drawing.Point(35, 125);
             this.btnPresente.Name = "btnPresente";
             this.btnPresente.Size = new System.Drawing.Size(162, 50);
             this.btnPresente.TabIndex = 1;
@@ -56,7 +57,7 @@
             // 
             // btnAusente
             // 
-            this.btnAusente.Location = new System.Drawing.Point(33, 255);
+            this.btnAusente.Location = new System.Drawing.Point(35, 181);
             this.btnAusente.Name = "btnAusente";
             this.btnAusente.Size = new System.Drawing.Size(161, 50);
             this.btnAusente.TabIndex = 2;
@@ -66,7 +67,7 @@
             // 
             // btnFaltas
             // 
-            this.btnFaltas.Location = new System.Drawing.Point(33, 348);
+            this.btnFaltas.Location = new System.Drawing.Point(36, 237);
             this.btnFaltas.Name = "btnFaltas";
             this.btnFaltas.Size = new System.Drawing.Size(161, 52);
             this.btnFaltas.TabIndex = 3;
@@ -79,15 +80,15 @@
             this.lblFecha.AutoSize = true;
             this.lblFecha.Location = new System.Drawing.Point(32, 81);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(46, 17);
+            this.lblFecha.Size = new System.Drawing.Size(63, 17);
             this.lblFecha.TabIndex = 4;
-            this.lblFecha.Text = "label1";
+            this.lblFecha.Text = "\"FECHA\"";
             // 
             // frmAsistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(246, 329);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.btnFaltas);
             this.Controls.Add(this.btnAusente);
@@ -97,6 +98,7 @@
             this.Text = "ASISTENCIA";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAsistencia_FormClosed);
             this.Load += new System.EventHandler(this.frmAsistencia_Load);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmAsistencia_MouseMove);
             this.ResumeLayout(false);
             this.PerformLayout();
 
