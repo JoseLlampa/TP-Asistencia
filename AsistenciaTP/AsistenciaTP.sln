@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciaTP.Negocio", "AsistenciaTP\AsistenciaTP.Negocio.csproj", "{6205D91C-9CA1-4729-9B19-EAF9050CE096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciaTP.Consola", "ConsoleApp1\AsistenciaTP.Consola.csproj", "{4EB14398-23DF-41A6-ACCD-2D6E7E259874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6205D91C-9CA1-4729-9B19-EAF9050CE096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6205D91C-9CA1-4729-9B19-EAF9050CE096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6205D91C-9CA1-4729-9B19-EAF9050CE096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6205D91C-9CA1-4729-9B19-EAF9050CE096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB14398-23DF-41A6-ACCD-2D6E7E259874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB14398-23DF-41A6-ACCD-2D6E7E259874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB14398-23DF-41A6-ACCD-2D6E7E259874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB14398-23DF-41A6-ACCD-2D6E7E259874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41EF79E9-8B0C-4D9D-8BF5-71AEF1389400}
+	EndGlobalSection
+EndGlobal
